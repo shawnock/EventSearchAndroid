@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/eventIdHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idreceiver"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/aot_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/aot"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aort"
+                android:textStyle="bold"/>
+            
+            <TextView
+                android:layout_alignStart="@+id/aot"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/aottext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/venue_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/venue_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/venue"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/venue_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/venue_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/time_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/time_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/time_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/time_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/category_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/category_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/category_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/category_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/price_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/price_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pricerange"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/price_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/price_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/status_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ticket_status_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ticketstatus"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/ticket_status_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/ticket_status_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buy_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/buy_ticket_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buyat"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/buy_ticket_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/buy_ticket_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ticketmaster"
+                android:textColor="@color/colorLink"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seatmap_layout"
+            android:layout_marginTop="@dimen/info_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/seatmap_info"
+                android:layout_marginStart="@dimen/info_leftest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seatmap"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_alignStart="@+id/seatmap_info"
+                android:layout_marginLeft="@dimen/info_left"
+                android:id="@+id/seatmap_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewhere"
+                android:textColor="@color/colorLink"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

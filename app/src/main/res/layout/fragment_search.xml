@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/keyword"
+            android:textColor="@color/fontColor"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_keyword"
+            android:hint="@string/keyword_hint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:layout_below="@+id/keyword"
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textColor="@color/fontColor"
+            />
+
+        <Spinner
+            android:layout_below="@id/category"
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+        <TextView
+            android:layout_below="@+id/category"
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:textColor="@color/fontColor"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_distance"
+            android:hint="@string/distance_hint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <Spinner
+            android:layout_below="@id/distance"
+            android:id="@+id/measurement_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <TextView
+            android:layout_below="@+id/distance"
+            android:id="@+id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textColor="@color/fontColor"
+            />
+
+        <RadioGroup
+            android:id="@+id/location_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:checkedButton="@id/current_location">
+
+            <RadioButton
+                android:id="@+id/current_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current"
+                />
+
+            <RadioButton
+                android:id="@+id/other_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                />
+
+            <EditText
+                android:id="@+id/user_input_location"
+                android:layout_marginLeft="@dimen/left_padding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/locationhint"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:text="@string/search"
+                />
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:text="@string/clear"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/latandlon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

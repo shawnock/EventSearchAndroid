@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Event Search</string>
+    <string name="searchtab_text">SEARCH</string>
+    <string name="favtab_text">FAVOURITE</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="nofav">No Favourites</string>
+    <string name="placeholder">placeholder</string>
+    <string name="keyword">Keyword</string>
+    <string name="keyword_hint">Enter keyword</string>
+    <string name="category">Category</string>
+    <string name="distance">Distance</string>
+    <string name="distance_hint">10</string>
+    <string name="from">From</string>
+    <string name="current">Current location</string>
+    <string name="other">Other.Specify Location</string>
+    <string name="locationhint">Type in the Location</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="searching">Searching Events...</string>
+    <string name="aort">Artist/Team(s)</string>
+    <string name="venue">Venue</string>
+    <string name="time">Time</string>
+    <string name="pricerange">Price Range</string>
+    <string name="ticketstatus">Ticket Status</string>
+    <string name="buyat">Buy Ticket At</string>
+    <string name="seatmap">Seat Map</string>
+    <string name="idreceiver">received</string>
+
+    <string name="venue_name">Name</string>
+    <string name="venue_address">Address</string>
+    <string name="venue_city">City</string>
+    <string name="venue_phone">Phone Number</string>
+    <string name="venue_open">Open Hours</string>
+    <string name="venue_rule">General Rule</string>
+    <string name="venue_child_rule">Child Rule</string>
+
+    <string name="ticketmaster"><u>Ticketmaster</u></string>
+    <string name="viewhere"><u>View Here</u></string>
+
+    <string name="noresult">No results</string>
+    <string name="norecord">No Record</string>
+
+    <string name="artname">Name</string>
+    <string name="artfollower">Followers</string>
+    <string name="popularity">Popularity</string>
+    <string name="check">Check At</string>
+    <string name="spotify"><u>Spotify</u></string>
+
+
+    <string-array name="search_category">
+        <item>All</item>
+        <item>Music</item>
+        <item>Sports</item>
+        <item>Arts &amp; Theatre</item>
+        <item>Film</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="measurementchoice">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+
+    <string-array name="orderbase">
+        <item>Default</item>
+        <item>Event Name</item>
+        <item>Time</item>
+        <item>Artist</item>
+        <item>Type</item>
+    </string-array>
+
+    <string-array name="orderchoice">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="tab_text_1">EVENT</string>
+    <string name="tab_text_2">ARTIST(S)</string>
+    <string name="tab_text_3">VENUE</string>
+    <string name="tab_text_4">UPCOMING</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

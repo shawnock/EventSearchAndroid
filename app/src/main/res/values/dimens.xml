@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="search_margin_top">112dp</dimen>
+    <dimen name="huge_margin_top">512dp</dimen>
+    <dimen name="listview_margin_top">58</dimen>
+    <dimen name="text_view_width">8dp</dimen>
+    <dimen name="text_view_height">4dp</dimen>
+
+    <dimen name="toolbar_iconleft1">36dp</dimen>
+    <dimen name="toolbar_iconleft2">12dp</dimen>
+    <dimen name="twitter_width">32dp</dimen>
+    <dimen name="twitter_height">38dp</dimen>
+
+    <dimen name="left_padding">20dp</dimen>
+    <dimen name="top_padding">16dp</dimen>
+    <dimen name="info_leftest">10dp</dimen>
+    <dimen name="info_left">125dp</dimen>
+    <dimen name="info_top">16dp</dimen>
+    <dimen name="right_padding">20dp</dimen>
+    <dimen name="radius">8dp</dimen>
+
+    <dimen name="artpicheight">250dp</dimen>
+
+    <dimen name="mapheight">400dp</dimen>
+    
+    <dimen name="progresstexttop">16dp</dimen>
+    <dimen name="progresstextleft">56dp</dimen>
+
+    <dimen name="card_gap">10dp</dimen>
+    <dimen name="text_gap">12dp</dimen>
+    <dimen name="text_left">14dp</dimen>
+
+    <dimen name="main_image_width">88dp</dimen>
+    <dimen name="main_image_height">100dp</dimen>
+
+    <dimen name="fav_image_width">35dp</dimen>
+    <dimen name="fav_image_height">40dp</dimen>
+
+    <dimen name="image_padding">2dp</dimen>
+    <dimen name="control_padding">20dp</dimen>
+    <dimen name="huge_gap">48dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
